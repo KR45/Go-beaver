@@ -95,6 +95,17 @@ fmt.scan()
 
 This syntax is used for taking input in go
 
+other than this ```go Scan()``` function there two more input function available for taking input
+
+```go
+fmt.Scanln()
+fmt.Scanf()
+```
+
+1. Scan() : Scan scans text read from standard input, storing successive space-separated values into successive arguments.
+2. Scanln() : Scanln is similar to Scan, but stops scanning at a newline and after the final item there must be a newline or EOF.
+3. Scanf() : scanf scans text read from r, storing successive space-separated values into successive arguments as determined by the format. It returns the number of items successfully parsed. Newlines in the input must match newlines in the format.
+
 ### Pointer
 
 -> Points to memory address of another variable. Which is reference of actual value .
