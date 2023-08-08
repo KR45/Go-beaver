@@ -1,4 +1,14 @@
-# Variables
+# Contents
+
+- [Contents](#contents)
+  - [Variables](#variables)
+  - [Print Formatted Data](#print-formatted-data)
+  - [Data Types](#data-types)
+  - [Taking Input](#taking-input)
+    - [Pointer](#pointer)
+  - [Code](#code)
+
+## Variables
 
 > Benefits
 
@@ -144,6 +154,8 @@ So in above given snippet of code
 The syntax in **line 1** is taking input ```go fmt.Scan(name)``` but its just taking input and passing value of the variable to **line3**  which is null.
 
 But if we use **line2** syntax for taking input it will pass the memory address of the variable where the data is stored  to **line3**.
+
+## Code
 
 Try given code for more understanding
 
