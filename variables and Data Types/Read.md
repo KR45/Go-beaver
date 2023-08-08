@@ -86,3 +86,50 @@ name := "demo"
 
 > Data type can be used if needed , but this will not work
 > This method also doesn't work with const
+
+## Taking Input
+
+```go
+fmt.scan()
+```
+
+This syntax is used for taking input in go
+
+### Pointer
+
+-> Points to memory address of another variable. Which is reference of actual value .
+
+-> It is also called **special variable** in GOlang.
+
+```go
+fmt.Println("Hey 👋", &name) // this will print memory address of variable
+```
+
+this will display the memory address of the variable
+
+Output
+
+```markdown
+Hey 👋 0x14000010290
+```
+
+```go
+var name string
+
+1) fmt.Scan(name)
+2) fmt.Scan(&name)
+
+3) fmt.Println("Hey 👋", name)
+```
+
+Output
+
+```markdown
+ezio
+Hey 👋 ezio
+```
+
+So in above given snippet of code
+The syntax in **line 1** is taking input ```go fmt.Scan(name)``` but its just taking input and passing value of the variable to **line3**  which is null.
+
+But if we use **line2** syntax for taking input it will pass the memory address of the variable where the data is stored  to **line3**.
