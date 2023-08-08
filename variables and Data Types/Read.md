@@ -1,0 +1,88 @@
+# Variables
+
+> Benefits
+
+- Update the value once and can be seen through out the program
+- Make our code flexible.
+
+## Print Formatted Data
+
+```go
+fmt.printf("message %s",myvar)
+```
+
+General Formatting Styles Listed below ⬇️
+
+```text
+%v => the value in a default format when printing structs, the plus flag (%+v) adds field names
+%#v => a Go-syntax representation of the value
+%T => a Go-syntax representation of the type of the value
+%% => a literal percent sign; consumes no value
+```
+
+- it takes a **template string** that contains the text that needs to be formatted
+- **annotation verbs(or placeholder)** that tells the fmt functions how to format the variable passed in.
+
+More about placeholders [placeholder](https://pkg.go.dev/fmt)
+
+## Data Types
+
+assigning variabale in go
+
+```go
+var name string
+name="xyz"
+const mod int = 80
+```
+
+Need to define data type after naming the variables.
+
+- string
+- int
+- float
+- boolean
+- array
+- map
+
+Types of int GO
+
+```text
+uint8 -> Unsigned 8-bit integers (0 to 255)
+
+uint16 -> Unsigned 16-bit integers (0 to 65535)
+
+uint32 -> Unsigned 32-bit integers (0 to 4294967295)
+
+uint64 -> Unsigned 64-bit integers (0 to 18446744073709551615)
+
+int8 -> Signed 8-bit integers (-128 to 127)
+
+int16 -> Signed 16-bit integers (-32768 to 32767)
+
+int32 -> Signed 32-bit integers (-2147483648 to 2147483647)
+
+int64 -> Signed 64-bit integers (-9223372036854775808 to 9223372036854775807)
+```
+
+uint defines Positive and whole numbers.
+
+Types of Float in go
+
+```text
+float32 -> IEEE-754 32-bit floating-point numbers
+
+float64 -> IEEE-754 64-bit floating-point numbers
+
+complex64 -> Complex numbers with float32 real and imaginary parts
+
+complex128 -> Complex numbers with float64 real and imaginary parts
+```
+
+For creating var , it can be done without using var and type
+
+```go
+name := "demo"
+```
+
+> Data type can be used if needed , but this will not work
+> This method also doesn't work with const
