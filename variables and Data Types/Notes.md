@@ -5,7 +5,7 @@
   - [Print Formatted Data](#print-formatted-data)
   - [Data Types](#data-types)
   - [Taking Input](#taking-input)
-  - [Pointer](#pointer)
+    - [Pointer](#pointer)
   - [Code](#code)
 
 ## Variables
@@ -160,3 +160,5 @@ But if we use **line2** syntax for taking input it will pass the memory address 
 Try given code for more understanding
 
 [var.go](./var.go)
+
+Check
