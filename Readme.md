@@ -36,4 +36,4 @@ Allow to use same go.mod file through multiple folders, but go.mod file should b
   - [Taking Input][def]
   - [Pointers][def]
   
-[def]: ./variables%20and%20Data%20Types/Read.md
+[def]: ./variables%20and%20Data%20Types/Notes.md
