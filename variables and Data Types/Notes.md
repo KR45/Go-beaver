@@ -160,4 +160,3 @@ But if we use **line2** syntax for taking input it will pass the memory address 
 Try given code for more understanding
 
 [var.go](./var.go)
-
