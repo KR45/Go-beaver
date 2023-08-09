@@ -5,7 +5,7 @@
   - [Print Formatted Data](#print-formatted-data)
   - [Data Types](#data-types)
   - [Taking Input](#taking-input)
-    - [Pointer](#pointer)
+  - [Pointer](#pointer)
   - [Code](#code)
 
 ## Variables
