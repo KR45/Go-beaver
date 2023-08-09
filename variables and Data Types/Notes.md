@@ -161,4 +161,3 @@ Try given code for more understanding
 
 [var.go](./var.go)
 
-Check
